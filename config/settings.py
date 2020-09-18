@@ -8,17 +8,17 @@ DEBUG = False
 
 TEMPLATE_DEBUG = DEBUG
 
-ADMINS = (("Paul Hallett", "paulandrewhallett@gmail.com"),)
+ADMINS = (("Carlos Oliveira", "contato@coliveira.dev"),)
 
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 
 MANAGERS = ADMINS
 
-BASE_URL = "http://pokeapi.co"
+BASE_URL = "https://pokeapi.coliveira.dev"
 
 # Hosts/domain names that are valid for this site; required if DEBUG is False
 # See https://docs.djangoproject.com/en/1.5/ref/settings/#allowed-hosts
-ALLOWED_HOSTS = [".pokeapi.co", "localhost", "127.0.0.1"]
+ALLOWED_HOSTS = [".coliveira.dev", "localhost", "127.0.0.1", "coliveira.dev"]
 
 TIME_ZONE = "Europe/London"
 
